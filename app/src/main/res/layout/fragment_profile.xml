@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileFragment"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/profile_fragment"
+        android:textSize="20sp"
+        android:padding="10dp"/>
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="101dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@mipmap/ic_profile_dp" />
+
+    <TextView
+        android:background="@color/cardview_shadow_start_color"
+        android:id="@+id/txtName"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:padding="10dp"
+        android:text="NAME"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:background="@color/cardview_shadow_start_color"
+        android:id="@+id/txtEmail"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:padding="10dp"
+        android:text="email@gmail.com"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:background="@color/cardview_shadow_start_color"
+        android:id="@+id/txtPhone"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:padding="10dp"
+        android:text="phone number"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:gravity="center_horizontal" />
+    <TextView
+        android:background="@color/cardview_shadow_start_color"
+        android:id="@+id/textView"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="410dp"
+        android:padding="10dp"
+        android:text="Address"
+        android:layout_marginLeft="50dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:gravity="center_horizontal" />
+
+</FrameLayout>
